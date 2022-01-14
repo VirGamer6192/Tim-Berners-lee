@@ -1,0 +1,94 @@
+#profile{
+    width:150px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+body{
+    margin: 0;
+    padding-top:600px;
+}
+#welcome{
+    position: absolute;
+    height: 700px;
+    color: currentColor;
+    opacity: 1;
+    background:linear-gradient(#03c8ff 0%, #03ff85 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+   top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+    z-index: 9;
+}
+h1{
+    font-size: 80px;
+    font-family: serif;
+    font-weight: 300;
+}
+
+h2{
+     font-size: 80px;
+    font-family: fantasy;
+     font-weight: 300;
+    line-height: 1.2;
+}
+#name{
+     font-size: 40px;
+    font-family: inherit;
+     font-weight: 300;
+    line-height: 1.2;
+}
+#bio{
+    padding: 100px ;
+    text-align: center;
+    top: 30px;
+}
+.line{
+    height: 6px;
+    background-color: chartreuse;
+    width: 70px;
+    margin: 8px auto;
+    
+    
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.liner{
+     text-align: center;
+    vertical-align: middle;
+    position: relative;
+    display: table-cell;
+    
+}
+
+
+.menu{
+ list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top:10px;
+    right: 20px;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+.link{
+    float: left;
+    color:#fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.link:hover{
+    background-color: blue;
+}
